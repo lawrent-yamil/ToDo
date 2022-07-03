@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* agregar efecto hover al boton y lindos colores */
+.container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+/* Hacer el input igual que el boton */
+.container input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+/* Hacel al label igual que el boton */
+.container label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 1.3em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* Hacer que el .container se haga mas pequeo y quede centrado*/
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  /* Mover hacia abajo del .container */
+  margin-top: 100px;
+}
+/* Hacer efecto de levantado en el boton */
+.container button:hover {
+  opacity: 1;
+}
+/* Hacer que el boton tenga un borde de 5px*/
+.container button {
+  border-radius: 5px;
+}
+/* hacer que todos tenga un fondo lindo y que se vea */
+.container input[type="text"]:focus,
+.container input[type="password"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+/* Hacer que la clase tareas tenga un fondo
+   lindo y que se vea 
+*/
+.tareas {
+  background-color: #D5DBDB ;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  /* Hacerlo mas pequeño y centralo */
+  max-width: 500px;
+  margin: auto;
+  /* Moverlo hacia abajo */
+  margin-top: 100px;
+}
+/* Hacer que se  vea como un boton de eliminar */
+.btnDelete {
+  background-color: #ff0000;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  opacity: 0.8;
+  border-radius: 5px;
+  /* Separar del texto */
+  margin-left: 10px;
+}
+/* btnEdit */
+.btnEdit {
+  background-color: #21b646;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  opacity: 0.9;
+  border-radius: 5px;
+  /* Separar del texto */
+  margin-left: 10px;
+}
+/* Quitar punto del Li*/
+.tareas li {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /* Hacelo de Color Blanco */
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  /* Mover a la izquierda */
+  margin-left: -40px;
+  /* Configurar texto */
+  font-size: 1.2em;
+  /* Separar */
+  margin-top: 10px;
+}
+/* Mover los botones a la derecha */
+.btnDelete,
+.btnEdit {
+  float: right;
+  margin-top: -5px;
+  position: relative;
+}
+/* Boton de guardar btnSave */
+.btnSave {
+  background-color: #21b646;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  opacity: 0.9;
+  border-radius: 5px;
+  /* Separar del texto */
+  margin-left: 10px;
+}
+/* inputEdit */
+.inputEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+/* Poner al h2 bonito */
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.3em;
+  color: #21b646;
+  text-align: center;
+  /* Hacer mas pequeño el espacio que utiliza*/
+}
+/* Boton de cancelar */
+.btnCancel {
+  background-color: #ff0000;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  opacity: 0.9;
+  border-radius: 5px;
+  /* Separar del texto */
+  margin-left: 10px;
+}
+/* Hacer que el footer quede bonito */
+footer {
+  background-color: #616A6B;
+  padding: 20px;
+  /* border-radius: 5px; */
+  margin-top: 20px;
+  /* Moverlo hacia abajo */
+  margin-top: 100px;
+}
+/* Hacer que li quede lindo*/
+footer li {
+  /* Quitar botones */
+  list-style-type: none;
+  /* Poner en fila */
+  display: inline-block;
+  /* Separar */
+  margin-left: 110px;
+  /* Separa en espacio */
+  margin-top: 30px;
+}
+/* Configurar los links */
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* Configurar liCpy */
+footer #liCpy {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+}
